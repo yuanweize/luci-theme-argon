@@ -28,6 +28,9 @@ on:
 env:
   TZ: Asia/Shanghai
 
+permissions:
+  contents: write
+
 jobs:
   job_check:
     if: github.repository == ${{ github.repository }}
